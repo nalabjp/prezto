@@ -4,7 +4,7 @@
 alias diff='colordiff -u'
 
 # gitsh
-#alias gs='gitsh'
+alias gsh='gitsh'
 
 # tmux
 alias tsk='tmux send-keys'
