@@ -11,3 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+# source zsh file in customs directory
+if [[ -d "${ZDOTDIR:-$HOME}/.zprezto/customs/" ]]; then
+  for file in ${ZDOTDIR:-$HOME}/.zprezto/customs/*
+  do
+    source $file
+  done
+fi
