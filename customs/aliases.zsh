@@ -8,6 +8,9 @@ alias gsh='gitsh'
 
 # tmux
 alias tsk='tmux send-keys'
+alias ta='tmux attach -t'
+alias ts='tmux new-session -s'
+alias tl='tmux list-sessions'
 
 # bundler
 #alias b="bundle"
