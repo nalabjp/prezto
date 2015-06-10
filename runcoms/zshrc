@@ -18,3 +18,5 @@ if [[ -d "${ZDOTDIR:-$HOME}/.zprezto/customs/" ]]; then
     source $file
   done
 fi
+
+eval "$(rbenv init -)"
