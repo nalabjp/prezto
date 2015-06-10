@@ -19,4 +19,8 @@ if [[ -d "${ZDOTDIR:-$HOME}/.zprezto/customs/" ]]; then
   done
 fi
 
+if [[ -s "${ZDOTDIR:-$HOME}/.zshrc.local" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zshrc.local"
+fi
+
 eval "$(rbenv init -)"
